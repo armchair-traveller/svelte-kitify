@@ -1,0 +1,13 @@
+.DS_Store
+node_modules
+/.svelte
+/build
+/public
+.env
+.vscode
+yarn-error.log
+
+# /functions
+
+# Netlify
+.netlify
