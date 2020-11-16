@@ -42,12 +42,11 @@
 </style>
 
 <svelte:head>
-  <title>Hello!</title>
+  <title>TODO</title>
 </svelte:head>
 
 <main>
   <h1>Hello world!</h1>
-  Nevermind
   <Counter />
   <p>
     Visit the
