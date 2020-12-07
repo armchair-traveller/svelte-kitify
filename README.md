@@ -1,3 +1,9 @@
+⚠ **SvelteKit is still in closed-source beta**. This template and its API may change drastically in the next few months.
+
+Command to use template: `npx degit armchair-traveller/sveltekit-netlify`
+
+*below are instructions included with the defualt Svelte Kit template*
+
 # create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
