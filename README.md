@@ -1,4 +1,5 @@
 ⚠ **SvelteKit is still in closed-source beta**. This template and its API may change drastically in the next few months.
+⚠ Netlify adapter currently has issues building. The repo will not be updated until then.
 
 Command to use template: `npx degit armchair-traveller/sveltekit-netlify`
 
