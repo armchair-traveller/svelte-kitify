@@ -1,7 +1,9 @@
 {
+  "name": "kit-demo",
+  "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
-    "build": "svelte-kit build",
+    "build": "svelte-kit build && svelte-kit adapt",
     "start": "svelte-kit start"
   },
   "devDependencies": {
@@ -9,5 +11,6 @@
     "@sveltejs/kit": "next",
     "@sveltejs/snowpack-config": "next",
     "svelte": "^3.29.0"
-  }
+  },
+  "type": "module"
 }

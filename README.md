@@ -1,9 +1,10 @@
 ⚠ **SvelteKit is still in closed-source beta**. This template and its API may change drastically in the next few months.
-⚠ Netlify adapter currently has issues building. The repo will not be updated until then.
 
 Command to use template: `npx degit armchair-traveller/sveltekit-netlify`
 
-*below are instructions included with the defualt Svelte Kit template*
+_below are instructions included with the defualt Svelte Kit template_
+
+---
 
 # create-svelte
 
@@ -38,7 +39,7 @@ npm run dev -- --open
 
 Svelte apps are built with _adapters_, which optimise your project for deployment to different environments, like [Begin](https://begin.com), [Netlify](https://www.netlify.com), [Vercel](https://vercel.com) and so on. (You can also create your own adapter — instructions TODO.)
 
-By default, `npm run build` will generate a Node app that you can run with `node build`. To use a different adapter, install it and update your `svelte.config.js` accordingly. The following official adapters are available:
+By default, `npm run build` will generate a Node app that you can run with `node build`. To use a different adapter, install it and update your `svelte.config.cjs` accordingly. The following official adapters are available:
 
 - [@sveltejs/adapter-node](https://github.com/sveltejs/kit/tree/master/packages/adapter-node)
 - [@sveltejs/adapter-static](https://github.com/sveltejs/kit/tree/master/packages/adapter-static)
