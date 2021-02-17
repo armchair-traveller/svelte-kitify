@@ -3,14 +3,13 @@
   "version": "0.0.1",
   "scripts": {
     "dev": "svelte-kit dev",
-    "build": "not-svelte-kit build && not-svelte-kit adapt",
-    "start": "not-svelte-kit start"
+    "build": "svelte-kit build && svelte-kit adapt",
+    "start": "svelte-kit start"
   },
   "devDependencies": {
     "@sveltejs/adapter-netlify": "1.0.0-next.1",
     "@sveltejs/kit": "1.0.0-next.34",
     "@sveltejs/snowpack-config": "1.0.0-next.3",
-    "not-svelte-kit": "0.0.6-next.34",
     "svelte": "^3.32.3"
   },
   "type": "module"
