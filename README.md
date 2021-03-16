@@ -1,7 +1,15 @@
-⚠ **SvelteKit is still in closed-source beta**. This template and its API may change drastically in the next few months.
-⚠ Netlify adapter currently has issues building. The repo will not be updated until then.
+# svelte-kitify
 
-Command to use template: `npx degit armchair-traveller/sveltekit-netlify`
+A template for Svelte Kit && Netlify
+
+⚠ **SvelteKit is currently in public beta**. This template and its API may change drastically in the next few months.
+
+last tested working versions (as of 3/15/2021):
+- `@sveltejs/adapter-netlify` 1.0.0-next.3
+- `@sveltejs/kit` 1.0.0-next.49
+- `vite` 2.1.0
+
+Command to use template: `npx degit armchair-traveller/svelte-kitify`
 
 _below are instructions included with the default Svelte Kit template_
 
