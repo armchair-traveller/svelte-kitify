@@ -1,6 +1,6 @@
-# svelte-kitify
+# Svelte Kitify
 
-A template for Svelte Kit && Netlify
+A template for Svelte Kit `&&` Netlify
 
 ⚠ **SvelteKit is currently in public beta**. This template and its API may change drastically in the next few months.
 
