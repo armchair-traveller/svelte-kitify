@@ -9,6 +9,11 @@ last tested working versions (as of 3/15/2021):
 - `@sveltejs/kit` 1.0.0-next.49
 - `vite` 2.1.0
 
+This branch is quite opinionated and adds:
+- fauna
+- urql
+- tailwind (JIT)
+
 Command to use template: `npx degit armchair-traveller/svelte-kitify`
 
 _below are instructions included with the default Svelte Kit template_
