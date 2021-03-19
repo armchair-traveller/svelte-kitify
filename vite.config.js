@@ -13,4 +13,14 @@ export default {
   optimizeDeps: {
     exclude: ["@urql/svelte"],
   },
+  resolve: {
+    alias: {
+      $stores: resolve("src/stores"),
+      $utils: resolve("src/utils"),
+      $gql: resolve("src/gql"),
+    },
+  },
+  ssr: {
+    noExternal: Object.keys(pkg.dependencies || {}),
+  },
 };
